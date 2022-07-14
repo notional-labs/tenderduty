@@ -47,3 +47,96 @@ chains:
         alert_if_down: yes
       - url: https://some-other-node:443
         alert_if_down: no
+
+  "CosmosHub":
+    chain_id: cosmoshub-4
+    valoper_address: cosmosvaloper1083svrca4t350mphfv9x45wq9asrs60cdmrflj
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: yes
+        api_key: "" # uses default if blank
+      discord:
+        enabled: yes
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: yes
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: tcp://localhost:26657
+        alert_if_down: yes
+      - url: https://some-other-node:443
+        alert_if_down: no
+        
+   "Juno":
+    chain_id: juno-1
+    valoper_address: junovaloper1083svrca4t350mphfv9x45wq9asrs60cpqzg0y
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: yes
+        api_key: "" # uses default if blank
+      discord:
+        enabled: yes
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: yes
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: tcp://localhost:26657
+        alert_if_down: yes
+      - url: https://some-other-node:443
+        alert_if_down: no
+        
+   "Sifchain":
+    chain_id: Sifchain-1
+    valoper_address: sifvaloper1083svrca4t350mphfv9x45wq9asrs60cyssqu6
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: yes
+        api_key: "" # uses default if blank
+      discord:
+        enabled: yes
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: yes
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: tcp://localhost:26657
+        alert_if_down: yes
+      - url: https://some-other-node:443
+        alert_if_down: no
