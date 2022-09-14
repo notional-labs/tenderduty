@@ -689,62 +689,62 @@ chains:
     nodes:
       - url: https://rpc-provenance-ia.cosmosia.notional.ventures:443
         alert_if_down: yes
-  # "Fetch.ai":
-  #   chain_id: fetchhub-4
-  #   valoper_address: fetchvaloper1s9myentgxavnpw7648an2v6zvvpza0axa6dd0x
-  #   public_fallback: no
-  #   alerts:
-  #     stalled_enabled: yes
-  #     stalled_minutes: 10
-  #     consecutive_enabled: yes
-  #     consecutive_missed: 5
-  #     consecutive_priority: critical
-  #     percentage_enabled: no
-  #     percentage_missed: 10
-  #     percentage_priority: warning
-  #     alert_if_inactive: yes
-  #     alert_if_no_servers: yes
-  #     pagerduty:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #     discord:
-  #       enabled: no
-  #       webhook: "" # uses default if blank
-  #     telegram:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #       channel: "" # uses default if blank
-  #   nodes:
-  #     - url: https://rpc-fetchhub-ia.cosmosia.notional.ventures:443
-  #       alert_if_down: yes
-  # "Umee":
-  #   chain_id: umee-1
-  #   valoper_address: umeevaloper1dmahqt84r9je3sqvljzjrttjj78cmrf39k5zhs
-  #   public_fallback: no
-  #   alerts:
-  #     stalled_enabled: yes
-  #     stalled_minutes: 10
-  #     consecutive_enabled: yes
-  #     consecutive_missed: 5
-  #     consecutive_priority: critical
-  #     percentage_enabled: no
-  #     percentage_missed: 10
-  #     percentage_priority: warning
-  #     alert_if_inactive: yes
-  #     alert_if_no_servers: yes
-  #     pagerduty:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #     discord:
-  #       enabled: no
-  #       webhook: "" # uses default if blank
-  #     telegram:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #       channel: "" # uses default if blank
-  #   nodes:
-  #     - url: https://rpc-umee-ia.cosmosia.notional.ventures:443
-  #       alert_if_down: yes
+  "Fetch.ai":
+    chain_id: fetchhub-4
+    valoper_address: fetchvaloper1s9myentgxavnpw7648an2v6zvvpza0axa6dd0x
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: no
+        api_key: "" # uses default if blank
+      discord:
+        enabled: no
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: no
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: https://rpc-fetchhub-ia.cosmosia.notional.ventures:443
+        alert_if_down: yes
+  "Umee":
+    chain_id: umee-1
+    valoper_address: umeevaloper1dmahqt84r9je3sqvljzjrttjj78cmrf39k5zhs
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: no
+        api_key: "" # uses default if blank
+      discord:
+        enabled: no
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: no
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: https://rpc-umee-ia.cosmosia.notional.ventures:443
+        alert_if_down: yes
   # "Injective":
   #   chain_id: injective-1
   #   valoper_address: injvaloper16eg6wf2k6v0lzwu2vsrhxhe0tcycgr7jm98nyz
