@@ -493,34 +493,34 @@ chains:
     nodes:
       - url: https://rpc-kichain-ia.cosmosia.notional.ventures:443
         alert_if_down: yes
-  "BandChain":
-    chain_id: laozi-mainnet
-    valoper_address: bandvaloper19huytqr8srz9wcdhvas5cvxddg8dtqcv6tce0s
-    public_fallback: no
-    alerts:
-      stalled_enabled: yes
-      stalled_minutes: 10
-      consecutive_enabled: yes
-      consecutive_missed: 5
-      consecutive_priority: critical
-      percentage_enabled: no
-      percentage_missed: 10
-      percentage_priority: warning
-      alert_if_inactive: yes
-      alert_if_no_servers: yes
-      pagerduty:
-        enabled: no
-        api_key: "" # uses default if blank
-      discord:
-        enabled: no
-        webhook: "" # uses default if blank
-      telegram:
-        enabled: no
-        api_key: "" # uses default if blank
-        channel: "" # uses default if blank
-    nodes:
-      - url: https://rpc-bandchain-ia.cosmosia.notional.ventures:443
-        alert_if_down: yes
+  # "BandChain":
+  #   chain_id: laozi-mainnet
+  #   valoper_address: bandvaloper19huytqr8srz9wcdhvas5cvxddg8dtqcv6tce0s
+  #   public_fallback: no
+  #   alerts:
+  #     stalled_enabled: yes
+  #     stalled_minutes: 10
+  #     consecutive_enabled: yes
+  #     consecutive_missed: 5
+  #     consecutive_priority: critical
+  #     percentage_enabled: no
+  #     percentage_missed: 10
+  #     percentage_priority: warning
+  #     alert_if_inactive: yes
+  #     alert_if_no_servers: yes
+  #     pagerduty:
+  #       enabled: no
+  #       api_key: "" # uses default if blank
+  #     discord:
+  #       enabled: no
+  #       webhook: "" # uses default if blank
+  #     telegram:
+  #       enabled: no
+  #       api_key: "" # uses default if blank
+  #       channel: "" # uses default if blank
+  #   nodes:
+  #     - url: https://rpc-bandchain-ia.cosmosia.notional.ventures:443
+  #       alert_if_down: yes
   # "Chihuahua":
   #   chain_id: chihuahua-1
   #   valoper_address: chihuahuavaloper1h6vcu4r2hx70x5f0l3du3ey2g98u9ut2tafnnv
