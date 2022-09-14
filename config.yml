@@ -3,7 +3,7 @@ enable_dashboard: yes
 listen_port: 3005
 hide_logs: no
 node_down_alert_minutes: 3
-prometheus_enabled: yes
+prometheus_enabled: no
 prometheus_listen_port: 28686
 pagerduty:
   enabled: no
