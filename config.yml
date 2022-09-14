@@ -43,7 +43,7 @@ chains:
         api_key: "" # uses default if blank
         channel: "" # uses default if blank
     nodes:
-      - url: https://rpc-osmosis-ia.cosmosia.notional.ventures
+      - url: https://rpc-osmosis-ia.cosmosia.notional.ventures:443
         alert_if_down: yes
   "Gaia":
     chain_id: cosmoshub-4
