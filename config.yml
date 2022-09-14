@@ -633,62 +633,62 @@ chains:
     nodes:
       - url: https://rpc-evmos-ia.cosmosia.notional.ventures:443
         alert_if_down: yes
-  # "Vidulum":
-  #   chain_id: vidulum-1
-  #   valoper_address: vdlvaloper16pu0t4yauhduaxvu3k29w539da5d2mfxqjdmjj
-  #   public_fallback: no
-  #   alerts:
-  #     stalled_enabled: yes
-  #     stalled_minutes: 10
-  #     consecutive_enabled: yes
-  #     consecutive_missed: 5
-  #     consecutive_priority: critical
-  #     percentage_enabled: no
-  #     percentage_missed: 10
-  #     percentage_priority: warning
-  #     alert_if_inactive: yes
-  #     alert_if_no_servers: yes
-  #     pagerduty:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #     discord:
-  #       enabled: no
-  #       webhook: "" # uses default if blank
-  #     telegram:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #       channel: "" # uses default if blank
-  #   nodes:
-  #     - url: https://rpc-vidulum-ia.cosmosia.notional.ventures:443
-  #       alert_if_down: yes
-  # "Provenance":
-  #   chain_id: pio-mainnet-1
-  #   valoper_address: pbvaloper10ap9fj9uq50cardmlzdj367kqg5x3ghjdp2v6p
-  #   public_fallback: no
-  #   alerts:
-  #     stalled_enabled: yes
-  #     stalled_minutes: 10
-  #     consecutive_enabled: yes
-  #     consecutive_missed: 5
-  #     consecutive_priority: critical
-  #     percentage_enabled: no
-  #     percentage_missed: 10
-  #     percentage_priority: warning
-  #     alert_if_inactive: yes
-  #     alert_if_no_servers: yes
-  #     pagerduty:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #     discord:
-  #       enabled: no
-  #       webhook: "" # uses default if blank
-  #     telegram:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #       channel: "" # uses default if blank
-  #   nodes:
-  #     - url: https://rpc-provenance-ia.cosmosia.notional.ventures:443
-  #       alert_if_down: yes
+  "Vidulum":
+    chain_id: vidulum-1
+    valoper_address: vdlvaloper16pu0t4yauhduaxvu3k29w539da5d2mfxqjdmjj
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: no
+        api_key: "" # uses default if blank
+      discord:
+        enabled: no
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: no
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: https://rpc-vidulum-ia.cosmosia.notional.ventures:443
+        alert_if_down: yes
+  "Provenance":
+    chain_id: pio-mainnet-1
+    valoper_address: pbvaloper10ap9fj9uq50cardmlzdj367kqg5x3ghjdp2v6p
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: no
+        api_key: "" # uses default if blank
+      discord:
+        enabled: no
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: no
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: https://rpc-provenance-ia.cosmosia.notional.ventures:443
+        alert_if_down: yes
   # "Fetch.ai":
   #   chain_id: fetchhub-4
   #   valoper_address: fetchvaloper1s9myentgxavnpw7648an2v6zvvpza0axa6dd0x
