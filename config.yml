@@ -129,118 +129,118 @@ chains:
     nodes:
       - url: https://rpc-sifchain-ia.cosmosia.notional.ventures:443
         alert_if_down: yes
-  # "Akash":
-  #   chain_id: akashnet-2
-  #   valoper_address: akashvaloper1083svrca4t350mphfv9x45wq9asrs60c0k5a63
-  #   public_fallback: no
-  #   alerts:
-  #     stalled_enabled: yes
-  #     stalled_minutes: 10
-  #     consecutive_enabled: yes
-  #     consecutive_missed: 5
-  #     consecutive_priority: critical
-  #     percentage_enabled: no
-  #     percentage_missed: 10
-  #     percentage_priority: warning
-  #     alert_if_inactive: yes
-  #     alert_if_no_servers: yes
-  #     pagerduty:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #     discord:
-  #       enabled: no
-  #       webhook: "" # uses default if blank
-  #     telegram:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #       channel: "" # uses default if blank
-  #   nodes:
-  #     - url: https://rpc-akash-ia.cosmosia.notional.ventures:443
-  #       alert_if_down: yes
-  # "Starname":
-  #   chain_id: iov-mainnet-ibc
-  #   valoper_address: starvaloper1pdqlmncych8uzsfdnsptv7s0wpazc0rgv7zc6h
-  #   public_fallback: no
-  #   alerts:
-  #     stalled_enabled: yes
-  #     stalled_minutes: 10
-  #     consecutive_enabled: yes
-  #     consecutive_missed: 5
-  #     consecutive_priority: critical
-  #     percentage_enabled: no
-  #     percentage_missed: 10
-  #     percentage_priority: warning
-  #     alert_if_inactive: yes
-  #     alert_if_no_servers: yes
-  #     pagerduty:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #     discord:
-  #       enabled: no
-  #       webhook: "" # uses default if blank
-  #     telegram:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #       channel: "" # uses default if blank
-  #   nodes:
-  #     - url: https://rpc-starname-ia.cosmosia.notional.ventures:443
-  #       alert_if_down: yes
-  # "Regen":
-  #   chain_id: regen-1
-  #   valoper_address: regenvaloper1083svrca4t350mphfv9x45wq9asrs60ct2p9a5
-  #   public_fallback: no
-  #   alerts:
-  #     stalled_enabled: yes
-  #     stalled_minutes: 10
-  #     consecutive_enabled: yes
-  #     consecutive_missed: 5
-  #     consecutive_priority: critical
-  #     percentage_enabled: no
-  #     percentage_missed: 10
-  #     percentage_priority: warning
-  #     alert_if_inactive: yes
-  #     alert_if_no_servers: yes
-  #     pagerduty:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #     discord:
-  #       enabled: no
-  #       webhook: "" # uses default if blank
-  #     telegram:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #       channel: "" # uses default if blank
-  #   nodes:
-  #     - url: https://rpc-regen-ia.cosmosia.notional.ventures:443
-  #       alert_if_down: yes
-  # "Sentinel":
-  #   chain_id: sentinelhub-2
-  #   valoper_address: sentvaloper1083svrca4t350mphfv9x45wq9asrs60cv37gc8
-  #   public_fallback: no
-  #   alerts:
-  #     stalled_enabled: yes
-  #     stalled_minutes: 10
-  #     consecutive_enabled: yes
-  #     consecutive_missed: 5
-  #     consecutive_priority: critical
-  #     percentage_enabled: no
-  #     percentage_missed: 10
-  #     percentage_priority: warning
-  #     alert_if_inactive: yes
-  #     alert_if_no_servers: yes
-  #     pagerduty:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #     discord:
-  #       enabled: no
-  #       webhook: "" # uses default if blank
-  #     telegram:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #       channel: "" # uses default if blank
-  #   nodes:
-  #     - url: https://rpc-sentinel-ia.cosmosia.notional.ventures:443
-  #       alert_if_down: yes
+  "Akash":
+    chain_id: akashnet-2
+    valoper_address: akashvaloper1083svrca4t350mphfv9x45wq9asrs60c0k5a63
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: no
+        api_key: "" # uses default if blank
+      discord:
+        enabled: no
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: no
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: https://rpc-akash-ia.cosmosia.notional.ventures:443
+        alert_if_down: yes
+  "Starname":
+    chain_id: iov-mainnet-ibc
+    valoper_address: starvaloper1pdqlmncych8uzsfdnsptv7s0wpazc0rgv7zc6h
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: no
+        api_key: "" # uses default if blank
+      discord:
+        enabled: no
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: no
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: https://rpc-starname-ia.cosmosia.notional.ventures:443
+        alert_if_down: yes
+  "Regen":
+    chain_id: regen-1
+    valoper_address: regenvaloper1083svrca4t350mphfv9x45wq9asrs60ct2p9a5
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: no
+        api_key: "" # uses default if blank
+      discord:
+        enabled: no
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: no
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: https://rpc-regen-ia.cosmosia.notional.ventures:443
+        alert_if_down: yes
+  "Sentinel":
+    chain_id: sentinelhub-2
+    valoper_address: sentvaloper1083svrca4t350mphfv9x45wq9asrs60cv37gc8
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: no
+        api_key: "" # uses default if blank
+      discord:
+        enabled: no
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: no
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: https://rpc-sentinel-ia.cosmosia.notional.ventures:443
+        alert_if_down: yes
   # "Ixo":
   #   chain_id: impacthub-3
   #   valoper_address: ixovaloper1083svrca4t350mphfv9x45wq9asrs60camel0h
