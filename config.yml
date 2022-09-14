@@ -105,7 +105,7 @@ chains:
         alert_if_down: yes
       - url: https://some-other-node:443
         alert_if_down: no
-   "Sifchain":
+  "Sifchain":
     chain_id: Sifchain-1
     valoper_address: sifvaloper1083svrca4t350mphfv9x45wq9asrs60cyssqu6
     public_fallback: no
