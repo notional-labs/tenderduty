@@ -1,6 +1,6 @@
 ---
 enable_dashboard: yes
-listen_port: 8888
+listen_port: 3005
 hide_logs: no
 node_down_alert_minutes: 3
 prometheus_enabled: yes
@@ -13,7 +13,7 @@ discord:
   enabled: no
   webhook: https://discord.com/api/webhooks/999999999999999999/zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 telegram:
-  enabled: yes
+  enabled: no
   api_key: '5114361364:AAFP01UqFwlYWJFVGuaaES7XI1OUJktYHeg'
   channel: "-542022627"
 chains:
@@ -36,18 +36,15 @@ chains:
         enabled: yes
         api_key: "" # uses default if blank
       discord:
-        enabled: yes
+        enabled: no
         webhook: "" # uses default if blank
       telegram:
-        enabled: yes
+        enabled: no
         api_key: "" # uses default if blank
         channel: "" # uses default if blank
     nodes:
-      - url: tcp://localhost:26657
-        alert_if_down: yes
-      - url: https://some-other-node:443
+      - url: https://rpc-osmosis-ia.cosmosia.notional.ventures
         alert_if_down: no
-
   "CosmosHub":
     chain_id: cosmoshub-4
     valoper_address: cosmosvaloper1083svrca4t350mphfv9x45wq9asrs60cdmrflj
@@ -74,12 +71,11 @@ chains:
         api_key: "" # uses default if blank
         channel: "" # uses default if blank
     nodes:
-      - url: tcp://localhost:26657
+      - url: https://rpc-cosmoshub-ia.cosmosia.notional.ventures/
         alert_if_down: yes
       - url: https://some-other-node:443
         alert_if_down: no
-        
-   "Juno":
+  "Juno":
     chain_id: juno-1
     valoper_address: junovaloper1083svrca4t350mphfv9x45wq9asrs60cpqzg0y
     public_fallback: no
@@ -105,7 +101,7 @@ chains:
         api_key: "" # uses default if blank
         channel: "" # uses default if blank
     nodes:
-      - url: tcp://localhost:26657
+      - url: https://rpc-juno-ia.cosmosia.notional.ventures/
         alert_if_down: yes
       - url: https://some-other-node:443
         alert_if_down: no
@@ -136,7 +132,7 @@ chains:
         api_key: "" # uses default if blank
         channel: "" # uses default if blank
     nodes:
-      - url: tcp://localhost:26657
+      - url: https://rpc-sifchain-ia.cosmosia.notional.ventures/
         alert_if_down: yes
       - url: https://some-other-node:443
         alert_if_down: no
