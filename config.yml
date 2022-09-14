@@ -73,62 +73,62 @@ chains:
     nodes:
       - url: https://rpc-cosmoshub-ia.cosmosia.notional.ventures:443
         alert_if_down: yes
-  # "Juno":
-  #   chain_id: juno-1
-  #   valoper_address: junovaloper1083svrca4t350mphfv9x45wq9asrs60cpqzg0y
-  #   public_fallback: no
-  #   alerts:
-  #     stalled_enabled: yes
-  #     stalled_minutes: 10
-  #     consecutive_enabled: yes
-  #     consecutive_missed: 5
-  #     consecutive_priority: critical
-  #     percentage_enabled: no
-  #     percentage_missed: 10
-  #     percentage_priority: warning
-  #     alert_if_inactive: yes
-  #     alert_if_no_servers: yes
-  #     pagerduty:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #     discord:
-  #       enabled: no
-  #       webhook: "" # uses default if blank
-  #     telegram:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #       channel: "" # uses default if blank
-  #   nodes:
-  #     - url: https://rpc-juno-ia.cosmosia.notional.ventures:443
-  #       alert_if_down: yes
-  # "Sifchain":
-  #   chain_id: sifchain-1
-  #   valoper_address: sifvaloper1083svrca4t350mphfv9x45wq9asrs60cyssqu6
-  #   public_fallback: no
-  #   alerts:
-  #     stalled_enabled: yes
-  #     stalled_minutes: 10
-  #     consecutive_enabled: yes
-  #     consecutive_missed: 5
-  #     consecutive_priority: critical
-  #     percentage_enabled: no
-  #     percentage_missed: 10
-  #     percentage_priority: warning
-  #     alert_if_inactive: yes
-  #     alert_if_no_servers: yes
-  #     pagerduty:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #     discord:
-  #       enabled: no
-  #       webhook: "" # uses default if blank
-  #     telegram:
-  #       enabled: no
-  #       api_key: "" # uses default if blank
-  #       channel: "" # uses default if blank
-  #   nodes:
-  #     - url: https://rpc-sifchain-ia.cosmosia.notional.ventures:443
-  #       alert_if_down: yes
+  "Juno":
+    chain_id: juno-1
+    valoper_address: junovaloper1083svrca4t350mphfv9x45wq9asrs60cpqzg0y
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: no
+        api_key: "" # uses default if blank
+      discord:
+        enabled: no
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: no
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: https://rpc-juno-ia.cosmosia.notional.ventures:443
+        alert_if_down: yes
+  "Sifchain":
+    chain_id: sifchain-1
+    valoper_address: sifvaloper1083svrca4t350mphfv9x45wq9asrs60cyssqu6
+    public_fallback: no
+    alerts:
+      stalled_enabled: yes
+      stalled_minutes: 10
+      consecutive_enabled: yes
+      consecutive_missed: 5
+      consecutive_priority: critical
+      percentage_enabled: no
+      percentage_missed: 10
+      percentage_priority: warning
+      alert_if_inactive: yes
+      alert_if_no_servers: yes
+      pagerduty:
+        enabled: no
+        api_key: "" # uses default if blank
+      discord:
+        enabled: no
+        webhook: "" # uses default if blank
+      telegram:
+        enabled: no
+        api_key: "" # uses default if blank
+        channel: "" # uses default if blank
+    nodes:
+      - url: https://rpc-sifchain-ia.cosmosia.notional.ventures:443
+        alert_if_down: yes
   # "Akash":
   #   chain_id: akashnet-2
   #   valoper_address: akashvaloper1083svrca4t350mphfv9x45wq9asrs60c0k5a63
